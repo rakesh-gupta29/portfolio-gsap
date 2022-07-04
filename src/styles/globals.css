@@ -1,10 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+@font-face {
+  font-family: "Averta";
+  src: url("/fonts/averta.otf");
+}
+@font-face {
+  font-family: "Morion";
+  src: url("/fonts/morion-regular.woff2");
+}
+@font-face {
+  font-family: "Morion-Bold";
+  src: url("/fonts/morion-bold.woff2");
+}
+
+@font-face {
+  font-family: "Questa";
+  src: url("/fonts/questa-sans-regular.woff2");
+}
 
 @layer components {
   .d {
-    @apply border border-rose-900;
+    @apply border border-red;
+  }
+  .bg-cloth {
+    background-image: repeating-linear-gradient(
+        90deg,
+        hsla(57, 0%, 42%, 0.09) 0px,
+        hsla(57, 0%, 42%, 0.09) 1px,
+        transparent 1px,
+        transparent 60px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        hsla(57, 0%, 42%, 0.09) 0px,
+        hsla(57, 0%, 42%, 0.09) 1px,
+        transparent 1px,
+        transparent 60px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        hsla(57, 0%, 42%, 0.09) 0px,
+        hsla(57, 0%, 42%, 0.09) 1px,
+        transparent 1px,
+        transparent 10px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        hsla(57, 0%, 42%, 0.09) 0px,
+        hsla(57, 0%, 42%, 0.09) 1px,
+        transparent 1px,
+        transparent 10px
+      ),
+      linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
   }
 }
