@@ -39,9 +39,9 @@ export default function Header() {
                   Thoughts
                 </a>
               </Link>
-              <Link passHref href="/project">
+              <Link passHref href="/projects">
                 <a className="px-2 font-averta text-slate-800 text-xl hover:text-blue">
-                  Project
+                  Projects
                 </a>
               </Link>
               <Link passHref href="/contact">

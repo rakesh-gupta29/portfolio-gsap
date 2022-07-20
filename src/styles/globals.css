@@ -24,6 +24,9 @@
   .d {
     @apply border border-red;
   }
+  .spaced-text {
+    word-spacing: 10px;
+  }
   .bg-cloth {
     background-image: repeating-linear-gradient(
         90deg,
@@ -54,5 +57,16 @@
         transparent 10px
       ),
       linear-gradient(90deg, rgb(20, 20, 20), rgb(20, 20, 20));
+  }
+  .bg-size-zero {
+    background-size: 20% 100%;
+  }
+  .bg-size-full {
+    background-size: 100% 100%;
+    transition: background-size 2s ease-in;
+    -moz-transition: background-size 2s ease-in;
+    -ms-transition: background-size 2s ease-in;
+    -o-transition: background-size 2s ease-in;
+    -webkit-transition: background-size 2s ease-in;
   }
 }

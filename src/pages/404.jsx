@@ -15,9 +15,9 @@ export default function Home() {
         <h2 className=" text-3xl md:text-5xl font-questa font-bold capitalize ">
           Page You Are Looking For does not exist.
         </h2>
-        <div className=" d pt-16 pb-10  ">
+        <div className="pb-16 pt-20">
           <Link passHref href="/">
-            <a className="bg-black text-white font-morion  text-2xl md:text-3xl ml-auto py-4 border  hover:border-dark hover:bg-white hover:text-black transition-colors duration-200 ">
+            <a className="bg-black text-white font-morion  text-2xl md:text-3xl ml-auto py-5 px-14  border  hover:border-dark hover:bg-white hover:text-black transition-colors duration-200 ">
               Return To Home
             </a>
           </Link>

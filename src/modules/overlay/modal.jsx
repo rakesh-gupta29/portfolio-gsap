@@ -45,7 +45,7 @@ export default function Modal({ active, handler }) {
           <sup className="pr-2">{serial}</sup>
           <span>{text}</span>
         </div>
-        <div className="h-[2px] bg-gray borders ">
+        <div className="h-[2px] bg-slate borders">
           <div className="bg-white w-0 h-full group-hover:w-full transition-all duration-500"></div>
         </div>
       </div>
